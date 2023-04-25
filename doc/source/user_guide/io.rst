@@ -2245,10 +2245,10 @@ With max_level=1 the following snippet normalizes until 1st nesting level of the
 Line delimited json
 '''''''''''''''''''
 
-pandas is able to read and write line-delimited json files that are common in data processing pipelines
+pandas is able to read and write line-delimited json (ndjson) files that are common in data processing pipelines
 using Hadoop or Spark.
 
-For line-delimited json files, pandas can also return an iterator which reads in ``chunksize`` lines at a time. This can be useful for large files or to read from a stream.
+For line-delimited json (ndjson) files, pandas can also return an iterator which reads in ``chunksize`` lines at a time. This can be useful for large files or to read from a stream.
 
 .. ipython:: python
 

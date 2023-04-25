@@ -2351,7 +2351,7 @@ class NDFrame(PandasObject, indexing.IndexingMixin):
             suitable format for JSON. Should receive a single argument which is
             the object to convert and return a serialisable object.
         lines : bool, default False
-            If 'orient' is 'records' write out line-delimited json format. Will
+            If 'orient' is 'records' write out line-delimited json (ndjson) format. Will
             throw ValueError if incorrect 'orient' since others are not
             list-like.
         {compression_options}

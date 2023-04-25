@@ -637,7 +637,7 @@ def read_json(
         .. versionchanged:: 1.4.0 Zstandard support.
 
     nrows : int, optional
-        The number of lines from the line-delimited jsonfile that has to be read.
+        The number of lines from the line-delimited json (ndjson) file that has to be read.
         This can only be passed if `lines=True`.
         If this is None, all the rows will be returned.
 
